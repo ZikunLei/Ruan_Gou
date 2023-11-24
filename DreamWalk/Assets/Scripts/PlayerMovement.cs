@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
 
     [Header("移动参数")]
-    public float speed = 110f;
+    public float speed = 2f;
 
     float xVelocity;
     void Start()
